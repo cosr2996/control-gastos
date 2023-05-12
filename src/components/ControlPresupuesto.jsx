@@ -7,7 +7,7 @@ export const ControlPresupuesto = ({
   gastos,
   setGastos,
   setPresupuesto,
-  setIsValidPresupuesto
+  setIsValidPresupuesto,
 }) => {
   const [disponible, setDisponible] = useState(0);
   const [gastado, setGastado] = useState(0);
@@ -43,11 +43,11 @@ export const ControlPresupuesto = ({
   };
 
   const handleResetApp = () => {
-    const resultado=confirm('¿Deseas reiniciar presupuesto y gastos?')
-    if(resultado){
-      setGastos([])
-      setPresupuesto(0)
-      setIsValidPresupuesto(false)
+    const resultado = confirm("¿Deseas reiniciar presupuesto y gastos?");
+    if (resultado) {
+      setGastos([]);
+      setPresupuesto(0);
+      setIsValidPresupuesto(false);
     }
   };
 
