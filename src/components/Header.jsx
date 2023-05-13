@@ -1,5 +1,5 @@
 import React from "react";
-import { NuevoPresupuesto } from "./nuevoPresupuesto";
+import { NuevoPresupuesto } from "./NuevoPresupuesto";
 import { ControlPresupuesto } from "./ControlPresupuesto";
 
 export const Header = ({
