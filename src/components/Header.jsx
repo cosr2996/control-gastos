@@ -2,7 +2,7 @@ import React from "react";
 import { NuevoPresupuesto } from "./nuevoPresupuesto";
 import { ControlPresupuesto } from "./ControlPresupuesto";
 
-const Header = ({
+export const Header = ({
   presupuesto,
   setPresupuesto,
   isValidPresupuesto,
@@ -33,4 +33,4 @@ const Header = ({
   );
 };
 
-export default Header;
+
