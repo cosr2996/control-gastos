@@ -20,7 +20,7 @@ export const NuevoPresupuesto = ({
   };
 
   return (
-    <div className="contenedor-presupuesto contenedor sombra">
+    <div id="presupuesto" className="contenedor-presupuesto contenedor sombra">
       <form className="formulario" onSubmit={handlePresupuesto}>
         <div className="campo">
           <label>Definir Presupuesto</label>
